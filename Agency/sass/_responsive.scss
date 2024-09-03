@@ -1,0 +1,395 @@
+/* ==========================================================================
+   > Responsive
+   ========================================================================== */
+@media screen and (min-width: 992px) {
+  .custom-caption {
+    margin: 0 0;
+    top: 272px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+}
+
+/* ==========================================================================
+	#Media - Tablets in landscape
+========================================================================== */
+@media (max-width: 1024px) {
+  .custom-caption {
+    margin: 0 0;
+    top: 124px;
+    h2 {
+      font-size: 30px;
+    }
+  }
+  .portfolio .element-item .isotope-overlay p {
+    font-size: 9px;
+  }
+}
+
+/* ==========================================================================
+	#Phones
+========================================================================== */
+
+@media screen and (max-width: 767px) {
+
+  .clients-say .qoute {
+    width: 82%;
+    margin: 0 auto;
+
+  }
+  .clients-say {
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .about-us {
+    .about-title {
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+  }
+  .achivement {
+    .achivement-title {
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .call-to-visitor {
+    .visitor {
+      h2 {
+        font-size: 20px;
+      }
+      h3 {
+        font-size: 12px;
+      }
+      .custom-btn {
+        font-size: 14px;
+      }
+    }
+
+  }
+
+  .team {
+    .Team-title {
+      h2 {
+        font-size: 20px;
+      }
+
+    }
+
+    .single-team {
+      h3 {
+        font-size: 16px;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+
+    }
+    .custom-btn-tem {
+      display: none;
+    }
+  }
+
+  .post {
+
+    .Post-title {
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+    .custom-btn-tem {
+      display: none;
+    }
+  }
+
+  .footer {
+    .footer-top {
+      h3 {
+        text-transform: uppercase;
+        text-align: center;
+      }
+      p {
+        text-transform: lowercase;
+        text-align: center;
+      }
+      i {
+        color: $green;
+        text-align: center;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+      .single-footer {
+        text-align: center;
+        i {
+          font-size: 18px;
+        }
+      }
+    }
+    .footer-border {
+      border: 1px solid #777;
+      width: 83%;
+      padding: 0px 25px;
+      margin: 14px 0;
+    }
+    .footer-buttom {
+      text-align: center;
+      .social-icon-footer {
+        padding: 2px 6px;
+
+        ul {
+          text-decoration: none;
+          margin: 0;
+          li {
+            padding: 4px 4px;
+
+            a {
+
+              &:hover {
+                color: $green;
+              }
+
+              color: $white;
+              cursor: pointer;
+            }
+          }
+
+        }
+
+      }
+      img {
+        width: 10%;
+        padding: 10px 0;
+        height: auto;
+      }
+    }
+
+  }
+
+
+  .custom-caption {
+    margin: 0 0;
+    top: 68px;
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .portfolio .element-item .isotope-overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    transition: .6s;
+    padding: 0px 1px;
+    p {
+      font-size: 10px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .custom-caption {
+    margin: 0 0;
+    top: 21px;
+    h2 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .portfolio .element-item .isotope-overlay {
+    position: absolute;
+    margin-top: -82px;
+    h2 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 8px;
+    }
+
+  }
+  .portfolio-title {
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .filters {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .clients-say .qoute {
+    width: 82%;
+    margin: 0 auto;
+
+  }
+  .clients-say {
+    h2 {
+      font-size: 16px;
+    }
+  }
+  .about-us {
+    .about-title {
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+  }
+  .achivement {
+    .achivement-title {
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .call-to-visitor {
+    .visitor {
+      h2 {
+        font-size: 20px;
+      }
+      h3 {
+        font-size: 12px;
+      }
+      .custom-btn {
+        font-size: 14px;
+      }
+    }
+
+  }
+
+  .team {
+    .Team-title {
+      h2 {
+        font-size: 20px;
+      }
+
+    }
+
+    .single-team {
+      h3 {
+        font-size: 16px;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+
+    }
+    .custom-btn-tem {
+      display: none;
+    }
+  }
+
+  .post {
+
+    .Post-title {
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+    .custom-btn-tem {
+      display: none;
+    }
+  }
+
+  .footer {
+    .footer-top {
+      h3 {
+        text-transform: uppercase;
+        text-align: center;
+      }
+      p {
+        text-transform: lowercase;
+        text-align: center;
+      }
+      i {
+        color: $green;
+        text-align: center;
+      }
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+      .single-footer {
+        text-align: center;
+        i {
+          font-size: 18px;
+        }
+      }
+    }
+    .footer-border {
+      border: 1px solid #777;
+      width: 83%;
+      padding: 0px 25px;
+      margin: 14px 0;
+    }
+    .footer-buttom {
+      text-align: center;
+      .social-icon-footer {
+        padding: 2px 6px;
+
+        ul {
+          text-decoration: none;
+          margin: 0;
+          li {
+            padding: 4px 4px;
+
+            a {
+
+              &:hover {
+                color: $green;
+              }
+
+              color: $white;
+              cursor: pointer;
+            }
+          }
+
+        }
+
+      }
+      img {
+        width: 10%;
+        padding: 10px 0;
+        height: auto;
+      }
+    }
+
+  }
+}
